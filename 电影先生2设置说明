@@ -1,0 +1,43 @@
+解压模板到苹果cms模板文件夹template 请勿修改模板文件名
+
+添加后台快捷方式：
+
+自定义菜单————
+
+电影先生2.0,/admin.php/admin/Dyxs2/dyxs2set
+
+（注意如果有更改苹果cms后台请将admin.php更换为自己的）
+
+首页幻灯片————设置推荐9
+
+正在热播————设置推荐8
+
+一、LOGO替换
+
+static/picture/index-logo.png ——–首页logo
+
+static/image/logo.png —–其他页面logo
+
+static/picture/logo.png ——-icon小图标
+
+static/picture/loading.png ——-加载图
+
+二、轮播图
+
+轮播图视频推荐5，默认8个，需要更改数量，打开index/slide.html，看到num=”8″，把数字改成你想要显示轮播数字即可。
+
+三、首页热播
+
+热播视频推荐1，数量16个。
+
+四、弹窗公告和网址
+
+弹窗公告内容修改——-public/tcnotice
+
+网址内容修改———-public/website.html
+
+五、其他页面
+
+label/app==app下载页  label/about==关于  label/help==投屏  label/web==网址
+
+                            下载://wwi.lanzoui.com/ivCxiq9t6wh 作者：八神庵Laughing哥 https://www.bilibili.com/read/cv33831578/?jump_opus=1 出处：bilibili
